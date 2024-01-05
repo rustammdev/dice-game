@@ -79,7 +79,7 @@ btnNew.addEventListener('click', () => {
 
 // random img
 function randomImg() {
-    const dice = ['dice-1.png', 'dice-2.png', 'dice-3.png', 'dice-4.png', 'dice-5.png', 'dice-6.png']
+    const dice = ['img/dice-1.png', 'img/dice-2.png', 'img/dice-3.png', 'img/dice-4.png', 'img/dice-5.png', 'img/dice-6.png']
 
     let rn = dice[Math.floor(Math.random() * dice.length)]
     imgDice.setAttribute('src', `${rn}`)
