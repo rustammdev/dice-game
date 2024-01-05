@@ -28,7 +28,6 @@ const winnerPlayer = document.querySelector('#winner')
 // restart btn
 const btnReset = document.querySelector('#restartGame')
 
-
 // btn roll dice
 btnRoll.addEventListener('click', () => {
     let rand = randomImg()
@@ -108,7 +107,7 @@ function gameOver(param1, parma2) {
     }else {   
         winnerPlayer.textContent = 'Player 2'
     }
-    if (param1 >= 30 || parma2 >= 30){
+    if (param1 >= 100 || parma2 >= 100){
         btnHold.disabled = true;
         btnRoll.disabled = true;
 
